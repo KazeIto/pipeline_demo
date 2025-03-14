@@ -1,4 +1,4 @@
-name: Cangjie Test
+name: Cangjie
 
 on:
   push:
