@@ -18,4 +18,4 @@ jobs:
     - name: clone
       run: git clone https://github.com/KazeIto/pipeline_demo.git
     - name: test
-      run: . cangjie/envsetup.sh && cjc --version && cd repo_workspace && cjpm update && cjpm build && cjpm test
+      run: . cangjie/envsetup.sh && cjc --version && cd pipeline_demo && cjpm update && cjpm build && cjpm test
